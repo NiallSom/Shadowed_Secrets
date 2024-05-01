@@ -23,7 +23,7 @@ private:
     Ui::MainWindow *ui;
 
 private slots:
-    void buttonSetup(QPushButton *button, QPixmap map, Ui::MainWindow &func);
+    void buttonSetup(QPushButton *button, QPixmap map);
     void handleButton();
 };
 
